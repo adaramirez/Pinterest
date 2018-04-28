@@ -1,0 +1,187 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+header > * {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+header > h1 {
+    width: 5%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.Wedding {
+    width: 210px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    left: 40%;
+    position: relative;
+}
+
+.Drawings {
+    width: 210px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.Babies {
+    width: 210px;
+    height: 50px;
+    background-color: rgb(136, 36, 218);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Bouquets {
+    width: 210px;
+    height: 50px;
+    background-color: rgb(104, 241, 184);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Handsome {
+    width: 210px;
+    height: 50px;
+    background-color: rgb(243, 152, 67);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header > .search-box {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    transform: translateX(-55px);
+    border-radius: 8px;
+    background: whitesmoke;
+    height: 25px;
+    padding: 10px;
+    width: 55%;
+}
+
+
+
+.search-btn {
+    float: left;
+    position: fixed;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10px);
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    left: 8%;
+
+}
+
+.container {
+    float: right;
+}
+
+header > nav {
+    width: 20%;
+    position: relative;
+    top: 30px;
+}
+
+nav > ul> li > img {
+    width: 30px;
+    border-radius: 50px;
+    float: left;
+    margin-top: -6px;
+}
+
+nav ul {
+    top: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 15px;
+    right: 120px;
+    position: relative;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #211922;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: rgb(206, 204, 204);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1 > img {
+    width: 30px;
+    transform: translateY(10px);
+}
+
+div img {
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pin-title {
+    left: 10%;
+    position: relative;
+}
+
+.more {
+    left: 75%;
+    position: relative;
+}
+
+.col {
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+
+#search-options{
+    position: relative;
+    right: -20%;
+}
+
